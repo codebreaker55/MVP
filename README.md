@@ -23,9 +23,15 @@ Azure: Hosts the application, providing high availability, scalability, and secu
 CI/CD Pipeline: GitHub Actions automate the build, test, and deployment process. Each merge into the main branch triggers the CI/CD pipeline, ensuring continuous integration and delivery.
 
 # Data Flow:
-*User Interaction: The user interacts with the frontend through the web browser or mobile app.
-*API Request: The frontend sends an HTTP request to the ASP.NET Core Web API.
--Business Logic Processing: The API gateway forwards the request to the business logic layer, which processes the request.
--Database Interaction: The business logic layer interacts with the data access layer to perform CRUD operations on the SQL Server database.
--API Response: The data access layer returns the processed data to the business logic layer, which then sends the response back to the frontend through the API gateway.
--User Interface Update: The frontend updates the user interface based on the data received from the backend
+## User Interaction:
+The user interacts with the frontend through the web browser or mobile app.
+## API Request:
+The frontend sends an HTTP request to the ASP.NET Core Web API.
+## Business Logic Processing:
+The API gateway forwards the request to the business logic layer, which processes the request.
+## Database Interaction:
+The business logic layer interacts with the data access layer to perform CRUD operations on the SQL Server database.
+## API Response:
+The data access layer returns the processed data to the business logic layer, which then sends the response back to the frontend through the API gateway.
+## User Interface Update:
+The frontend updates the user interface based on the data received from the backend
